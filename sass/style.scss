@@ -6,6 +6,7 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	font-family: 'Lato', sans-serif;
+	
 
 }
 
@@ -15,6 +16,10 @@ body {
 	font-family: sans-serif;
 }
 
+.mobile{
+	max-width: 400px;
+
+}
 
 .grey {
 	background-color: rgb(224, 224, 224)
@@ -22,6 +27,7 @@ body {
 
 .navbar {
 	background-color: #0094DE;
+	max-width: 400px;
 	height: 70px;
 
 	.fas {
@@ -74,11 +80,12 @@ span {
 .sidebar {
 	height: 100%;
 	width: 0;
+	max-width: 400px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(245, 245, 245);
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 60px;
@@ -173,12 +180,14 @@ span {
 .map {
 	height: 79.5%;
 	width: 100%;
+	max-width: 400px;
 }
 
 
 .sidebarMap {
 	height: 100%;
 	width: 0;
+	max-width: 400px;
 	position: fixed;
 	z-index: 1;
 	top: 130px;
@@ -247,3 +256,11 @@ span {
 }
 
 /*Product Cards*/
+
+
+
+
+
+
+
+

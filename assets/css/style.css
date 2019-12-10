@@ -14,12 +14,17 @@ body {
   font-family: sans-serif;
 }
 
+.mobile {
+  max-width: 400px;
+}
+
 .grey {
   background-color: #e0e0e0;
 }
 
 .navbar {
   background-color: #0094DE;
+  max-width: 400px;
   height: 70px;
 }
 .navbar .fas {
@@ -65,11 +70,12 @@ span {
 .sidebar {
   height: 100%;
   width: 0;
+  max-width: 400px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -154,11 +160,13 @@ span {
 .map {
   height: 79.5%;
   width: 100%;
+  max-width: 400px;
 }
 
 .sidebarMap {
   height: 100%;
   width: 0;
+  max-width: 400px;
   position: fixed;
   z-index: 1;
   top: 130px;
