@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Cuponatic Test</title>
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<header onclick="closeMap()">
+		<!--////////////..barra de navegacion..//////////-->
+		<div class="navbar fixed-top">
+			<div class="boton-menu">
+
+				<div class="d-flex m-auto bd-highlight">
+					<i class="fas fa-bars mr-3" onclick="openNav()">
+						<p>MENU</p>
+					</i>
+					<img class="logoPrincipal m-2" src="assets/img/globales/logoCuponatic.png" alt="logoCuponatic">
+					<i class="fas fa-search ml-4">
+						<p>BUSCAR</p>
+					</i>
+					<i class="fas fa-user-circle ">
+						<p>CUENTA</p>
+					</i>
+				</div>
+
+				<!--sideBar de Menu-->
+				<div id="mySidebar" class="sidebar">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+					<a class="botonesSidebar" href="#">Home</a>
+					<a class="botonesSidebar" href="#">Services</a>
+					<a class="botonesSidebar" href="#">Clients</a>
+					<a class="botonesSidebar" href="#">Contact</a>
+				</div>
+				<!--sideBar del Menu-->
+
+				<!--sideBar del Orden-->
+				<div id="myOrden" class="sidebar">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeOrden()">×</a>
+					<div class="d-flex bd-highlight m-3 tituloSidebar" onclick="closeOrden()">
+						<img class="m-2" src="assets/img/globales/fechaIzquier.png" alt="flechaAtras">
+						<h3 class="m-2">Ordenar Por</h3>
+					</div>
+					<a class="botonesSidebar" href="#">Menor precio<img src="assets/img/globales/fechaAbajo.png"></a>
+					<a class="botonesSidebar" href="#">Mayor precio<img src="assets/img/globales/fechaAbajo.png"></a>
+					<a class="botonesSidebar" href="#">Lo más nueco<img src="assets/img/globales/fechaAbajo.png"></a>
+					<a class="botonesSidebar" href="#">Distancia<img src="assets/img/globales/fechaAbajo.png"></a>
+				</div>
+				<!--sideBar de Orden-->
+
+
+				<!--sideBar del Filtro-->
+				<div id="myFiltro" class="sidebar">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeFiltro()">×</a>
+					<div class="d-flex bd-highlight m-3 tituloSidebar" onclick="closeFiltro()">
+						<img class="m-2" src="assets/img/globales/fechaIzquier.png" alt="flechaAtras">
+						<h3 class="m-2">Filtrar Por</h3>
+					</div>
+					<a class="botonesSidebar" href="#">Categorias<img src="assets/img/globales/fechaAbajo.png"></a>
+					<a class="botonesSidebar" href="#">Comunas <img src="assets/img/globales/fechaAbajo.png"></a>
+					<a class="botonesSidebar" href="#">Distancia <img src="assets/img/globales/fechaAbajo.png"></a>
+					<a class="botonesSidebar" href="#">Rango de Distancia <img
+							src="assets/img/globales/fechaAbajo.png"></a>
+				</div>
+
+				<!--sideBar de Filtro-->
+			</div>
+		</div>
+		<!--///////////..barra de navegacion..//////////-->
+	</header>
+
+	</div>
+	<div class="container-fluid grey">
+		<!--////////////..Botones Orden Filtro Mapa..////////////-->
+
+		<div class="d-flex justify-content-around options mb-2">
+			<button class="btn btn-sm" onclick="openOrden()">
+				<i class="fas fa-sort-amount-down-alt"></i><span class="ml-1">Orden</span></button>
+
+
+			<button class="btn btn-sm" onclick="openFiltro()">
+				<i class="fas fa-sliders-h"></i><span class="ml-1">Filtro</span></button>
+
+
+			<button class="btn btn-sm" onclick="openMap()">
+				<i class="fas fa-map"></i><span class="ml-1">Mapa</span></button>
+
+		</div>
+
+		<!--////////////..Botones Orden Filtro Mapa..////////////-->
+
+		<!--////////////..Mapa..////////////-->
+
+		<div id="myMap" class="sidebarMap">
+			<div id="map" class="map"></div>
+		</div>
+
+		<!--////////////..Mapa..////////////-->
+
+		<!--////////////..Contenido Productos..////////////-->
+		<div class="card m-auto">
+			<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
+			<div class="card-body">
+				<h2>¡2x1! 10S. Levantamiento de Glúteos y Reafirmante Abdomen</h2>
+				<div class="d-flex bd-highlight">
+					<div class="discount">43%</div>
+					<p class="price">$5.990</p>
+					<span class="spanTachado">$6.990</span>
+				</div>
+				<hr>
+				<div class="d-flex bd-highlight">
+					<span class="w-100 bd-highlight"> 1.8 km, Providencia</span>
+					<span class="flex-shrink-1 bd-highlight"><i class="fas fa-star">4.3(8.1)</i></span>
+				</div>
+			</div>
+		</div><br>
+
+		<div class="card m-auto">
+				<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
+				<div class="card-body">
+					<h2>¡2x1! 10S. Levantamiento de Glúteos y Reafirmante Abdomen</h2>
+					<div class="d-flex bd-highlight">
+						<div class="discount">43%</div>
+						<p class="price">$5.990</p>
+						<span class="spanTachado">$6.990</span>
+					</div>
+					<hr>
+					<div class="d-flex bd-highlight">
+						<span class="w-100 bd-highlight"> 1.8 km, Providencia</span>
+						<span class="flex-shrink-1 bd-highlight"><i class="fas fa-star">4.3(8.1)</i></span>
+					</div>
+				</div>
+			</div><br>
+
+
+		<!--////////////..Contenido Productos..////////////-->
+
+
+		<br>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/googleMaps.js"></script>
+	<script src="https://kit.fontawesome.com/edd4bdce87.js" crossorigin="anonymous"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-Mhmd7Dy4ClEYkUK7RIQegMbYC1COnls&callback=iniciarMap">
+	</script>
+
+
+
+</body>
+
+</html>

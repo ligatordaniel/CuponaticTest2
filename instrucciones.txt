@@ -1,0 +1,18 @@
+La prueba es
+Desarrollo HTML+CSS+JS (js interacción o animación)
+En el link al final de este mensaje podrás 
+encontrar el prototipo versión movil, 4 pantallas, 
+genera una copia del proyecto.
+
+La información que despliegan cada elemento 
+(Cantidad, fotografía, título, precio oferta,
+ precio normal, cantidad de vendidos y porcentaje de descuento)
+ son referenciales.
+
+Conjunto a esto necesitamos que estimes el tiempo de ejecución,
+ recuerda esto no es una prueba de precisión, lo que esperamos 
+es oficio en el diseño y código vs tiempo de respuesta.
+Esperamos poder ver pronto tu maqueta.
+Saludos.
+
+https://www.figma.com/file/Yf1eZDnkek2YkrwwBgwBfU/Prueba-Front-End-(generar-copia)?node-id=0%3A1
